@@ -9,7 +9,13 @@
     <link rel="shortcut icon" href="BrownTau_WhiteBg_96.ico" sizes="96x96">
     <link rel="stylesheet" type="text/css" href="main.css">
 
-    <script defer src="ui-include.js" />
+    <!-- <script defer src="ui-include.js" /> -->
+    <script>customElements.define('ui-include', class extends HTMLElement {
+      async connectedCallback() {
+        let src = this.getAttribute('src');
+        this.innerHTML = await (await fetch(src)).text();;
+      }
+    }) </script>
 
   </head>
   <body>
