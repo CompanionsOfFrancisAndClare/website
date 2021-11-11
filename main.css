@@ -97,14 +97,13 @@ marquee
  {
     font-family:Calibri,Arial,Helvetica,sans-serif;
     font-size: smaller;
-    color:#ffffff;
-    background-color:#4d2600
  }
 #container1
 {
     float:left;
     width:100%;
-    background-color: gray;
+    color:#ffffff;
+    background-color:#4d2600
 }
 #col1
 {
