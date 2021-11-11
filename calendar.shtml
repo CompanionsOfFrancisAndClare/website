@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us">
+  <head>
+    <title>Companions of Francis and Clare</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="BrownTau_WhiteBg_16.ico" sizes="16x16">
+    <link rel="shortcut icon" href="BrownTau_WhiteBg_32.ico" sizes="32x32">
+    <link rel="shortcut icon" href="BrownTau_WhiteBg_96.ico" sizes="96x96">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <!-- Header with menu -->
+    <!--#include virtual="header.html" -->
+    
+    <!-- Responsive iFrame -->
+    <div class="responsive-iframe-container">
+      <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%238b4513&ctz=America%2FNew_York&showCalendars=0&src=c2psaHFnOTBtM2UzbnM2azJjMGFnaGcyNmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238b4513" style="border-width:0"
+       width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+    
+    <!-- agenda view for phones 
+    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=sjlhqg90m3e3ns6k2c0aghg26g%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe> -->
+    
+    <!-- Footer -->
+    <!--#include virtual="footer.html" -->
+    
+    <script>
+        var sizeCal = function(){ 
+            if (window.innerWidth < 768)
+            {
+                document.getElementById("calendar").src = "https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%238b4513&ctz=America%2FNew_York&showCalendars=0&src=c2psaHFnOTBtM2UzbnM2azJjMGFnaGcyNmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238b4513";
+                var height = window.innerHeight - 50;
+                document.getElementById("calendar").height = height.toString(); 
+                //alert(height.toString());
+            }            
+        };
+        
+        document.addEventListener('DOMContentLoaded', sizeCal, false);
+        window.addEventListener('resize',sizeCal);
+    </script>
+  </body>
+</html>
