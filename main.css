@@ -1,0 +1,242 @@
+body
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+li
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+dd
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+dt
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+h2
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+ h3
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+ blockquote
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+p
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    color:#ffffff;
+    background-color:#4d2600
+ }
+/*
+ p.news1
+ {
+ 	color:#ffffff;
+	font-size:large; 
+	font-family:Calibri,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	background-color:#4d2600
+ }
+p.news2
+ {
+ 	color:#ffffff;
+	font-size:large; 
+	font-family:Calibri,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	background-color:#880088
+ }
+
+a.news2:link {color: #ffffff; text-decoration: underline; }
+a.news2:active {color: #ffffff; text-decoration: underline; }
+a.news2:visited {color: #ffffff; text-decoration: underline; }
+*/
+
+/* unvisited link */
+a:link { color: #ff8000; }
+
+/* visited link */
+a:visited { color: #ff8000; }
+
+/* mouse over link */
+a:hover { color: hotpink; }
+
+/* selected link */
+a:active { color: #ff8000; } 
+
+marquee
+ {
+	color:#ffffff;
+	font-size:large; 
+	font-family:Calibri,Arial,Helvetica,sans-serif
+ }
+.menu
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    font-size: smaller;
+    margin-top: 10px;
+ }
+ .footer
+ {
+    font-family:Calibri,Arial,Helvetica,sans-serif;
+    font-size: smaller;
+ }
+#container1
+{
+    float:left;
+    width:100%;
+    background-color: gray;
+}
+#col1
+{
+    float:left;
+    width:224 px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#col2
+{
+    float:left;
+    width:224 px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#col3
+{
+    float:left;
+    width:224 px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#col4
+{
+    float:left;
+    width:259 px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#col5
+{
+    float:left;
+    width:259 px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#col6
+{
+    float:right;
+    width:150 px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+dt
+{
+    font-weight: bold;    
+}
+.border
+{
+	border-style: solid;
+	border-color: #bf8040;
+	border-width: thick;
+	border-radius: 10px;
+	border-spacing: 50px;
+	padding: 10px;
+}
+.twocolumn {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.centeredImage
+{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+.headerImage
+{
+   max-width: 100%
+}
+
+/* Responsive iFrame */
+
+.responsive-iframe-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+/* Indent the Annual Appeal Video at the same level as blockquotes. */
+.embeddedVideo {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.massvidcontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.massvidvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+marquee {
+    animation: color-change 1s infinite;
+    font-size: large;
+    font-weight: bold;
+    font-family: Calibri,Arial,Helvetica,sans-serif;
+}
+
+@keyframes color-change {
+    0% { color: white; }
+    50% { color:#09F90C; }
+    100% { color: white; }
+}
