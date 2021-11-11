@@ -9,23 +9,12 @@
     <link rel="shortcut icon" href="BrownTau_WhiteBg_96.ico" sizes="96x96">
     <link rel="stylesheet" type="text/css" href="main.css">
 
-    <script defer>
-      customElements.define('ui-include', class extends HTMLElement {
-        async connectedCallback() {
-          let src = this.getAttribute('src');
-          this.innerHTML = await (await fetch(src)).text();;
-        }
-      }) 
-    </script>
-  
+    <script defer src="ui-include.js" />
+
   </head>
   <body>
     <!-- Header with menu -->
-    <!--#include virtual="header.html" -->
-
     <ui-include src="header.html"></ui-include>
-
-
 
     <p></p>
     <h2>Companions of Francis and Clare Fraternity</h2>
@@ -37,9 +26,7 @@
         <p><a href='https://richmonddiocese.org/coronavirus/'>Diocese of Richmond Corona Virus Information</a></p>
     </blockquote> 
 
-
     <!-- Footer -->
     <ui-include src="footer.html"></ui-include>
-    <!--#include virtual="footer.html" -->
   </body>
 </html>
