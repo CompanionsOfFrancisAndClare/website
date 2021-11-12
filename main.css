@@ -1,48 +1,74 @@
 body
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+    font-size: 100%;
+   font-family: 'Bitter', serif;
     color:#ffffff;
     background-color:#4d2600
  }
 li
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
 dd
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
 dt
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 1em;
     color:#ffffff;
-    background-color:#4d2600
+    background-color:#4d2600;
+    margin-block-start: 1em;
  }
 h2
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-size: 2.5em;
     color:#ffffff;
     background-color:#4d2600
+ }
+ #fratname
+ {
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color:#ffffff;
+    background-color:#4d2600;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.1em;
  }
  h3
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-size: 2.2em;
     color:#ffffff;
     background-color:#4d2600
  }
+ h4
+ {
+   font-family: 'Bitter', serif;
+    font-size: 1.4em;
+    color:#ffffff;
+    background-color:#4d2600
+ } 
  blockquote
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
 p
  {
-    font-family:Calibri,Arial,Helvetica,sans-serif;
+   font-family: 'Bitter', serif;
+    font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
@@ -91,7 +117,10 @@ marquee
  {
     font-family:Calibri,Arial,Helvetica,sans-serif;
     font-size: smaller;
-    margin-top: 10px;
+   margin-top: 10px;
+/*     margin-block-start: 0.3em;
+    margin-block-end: 7em;
+ */
  }
  .footer
  {
@@ -124,11 +153,11 @@ marquee
 {
     float:left;
     width:224 px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 10px;
 }
 
-#col4
+/* #col4
 {
     float:left;
     width:259 px;
@@ -153,11 +182,7 @@ marquee
     margin-bottom: 5px;
     margin-left: 10px;
 }
-
-dt
-{
-    font-weight: bold;    
-}
+ */
 .border
 {
 	border-style: solid;
