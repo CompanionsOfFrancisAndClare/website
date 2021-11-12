@@ -1,27 +1,27 @@
 body
  {
     font-size: 100%;
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     color:#ffffff;
     background-color:#4d2600
  }
 li
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
 dd
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
 dt
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-weight: bold;
     font-size: 1em;
     color:#ffffff;
@@ -30,7 +30,7 @@ dt
  }
 h2
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 2.5em;
     color:#ffffff;
     background-color:#4d2600
@@ -46,28 +46,28 @@ h2
  }
  h3
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 2.2em;
     color:#ffffff;
     background-color:#4d2600
  }
  h4
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 1.4em;
     color:#ffffff;
     background-color:#4d2600
  } 
  blockquote
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
  }
 p
  {
-   font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;
     font-size: 1em;
     color:#ffffff;
     background-color:#4d2600
