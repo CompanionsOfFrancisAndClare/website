@@ -18,6 +18,6 @@ jobs:
     - name: FTP Deploy to WP Engine (Production)
       uses: SamKirkland/FTP-Deploy-Action@3.1.2
       with:
-        ftp-server: ftpes://ftp.R4L.com/
+        ftp-server: ftp://ftp.R4L.com/
         ftp-username: sfocompanions.org
         ftp-password: ${{ secrets.PROD_FTP_PASSWORD }}
