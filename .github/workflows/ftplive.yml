@@ -3,7 +3,6 @@ name: Production Deploy
 on:
   release:
     types: [published]
-    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +11,6 @@ jobs:
         shell: bash
     steps:
     - uses: actions/checkout@v2
-      with:
-        fetch-depth: 2
    
     - name: FTP Deploy to WP Engine (Production)
       uses: SamKirkland/FTP-Deploy-Action@3.1.2
